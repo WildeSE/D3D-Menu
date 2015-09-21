@@ -1,0 +1,29 @@
+﻿Сборка начата 18.05.2015 19:22:29.
+     1>Проект "D:\С++\Kim Engine 16.03.2015\Kim Engine1\Kim Engine\Kim Engine.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Release\Kim Engine.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W0 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D KIMENGINE_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Base.cpp
+         Base.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\С++\Kim Engine 16.03.2015\Kim Engine1\Release\Kim Engine.dll) не соответствует значению свойства выходного файла (D:\Games\PointBlank\dxhook.dll) для Linker. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(Kim Engine) не соответствует значению свойства выходного файла (dxhook) для Linker. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+       Link:
+         D:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Games\PointBlank\dxhook.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Kim Engine.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\С++\Kim Engine 16.03.2015\Kim Engine1\Release\Kim Engine.pdb" /SUBSYSTEM:WINDOWS /OPT:NOREF /OPT:NOICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\С++\Kim Engine 16.03.2015\Kim Engine1\Release\Kim Engine.lib" /MACHINE:X86 /DLL Release\Base.obj
+         Release\cDraw.obj
+         Release\cProtect.obj
+         Release\Memory.obj /SAFESEH:NO 
+         Создание кода
+         Создание кода завершено
+     1>detours.lib(detours.obj) : warning LNK4099: "detours.pdb" PDB не найден с "detours.lib(detours.obj)" или на "D:\С++\Kim Engine 16.03.2015\Kim Engine1\Release\detours.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>detours.lib(disasm.obj) : warning LNK4099: "detours.pdb" PDB не найден с "detours.lib(disasm.obj)" или на "D:\С++\Kim Engine 16.03.2015\Kim Engine1\Release\detours.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+         Kim Engine.vcxproj -> D:\С++\Kim Engine 16.03.2015\Kim Engine1\Release\Kim Engine.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Games\PointBlank\dxhook.dll;#2" /manifest "Release\Kim Engine.dll.intermediate.manifest"
+       FinalizeBuildStatus:
+         Файл "Release\Kim Engine.unsuccessfulbuild" удаляется.
+         Обращение к "Release\Kim Engine.lastbuildstate".
+     1>Построение проекта "D:\С++\Kim Engine 16.03.2015\Kim Engine1\Kim Engine\Kim Engine.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.69

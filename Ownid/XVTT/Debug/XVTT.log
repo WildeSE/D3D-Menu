@@ -1,0 +1,98 @@
+﻿Сборка начата 10.04.2015 13:07:02.
+     1>Проект "D:\С++\Ownid\XVTT\XVTT.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\XVTT.unsuccessfulbuild".
+       ClCompile:
+         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Base.cpp
+         Base.cpp
+     1>d:\с++\ownid\xvtt\variables.h(28): error C2864: AllStruct::GenrealCoord::x: в пределах класса могут быть инициализированы только статические константные данные-члены целого типа
+     1>d:\с++\ownid\xvtt\variables.h(28): error C2864: AllStruct::GenrealCoord::y: в пределах класса могут быть инициализированы только статические константные данные-члены целого типа
+     1>d:\с++\ownid\xvtt\variables.h(31): error C2864: AllStruct::GenrealCoord::bpos::y: в пределах класса могут быть инициализированы только статические константные данные-члены целого типа
+     1>d:\с++\ownid\xvtt\variables.h(31): error C2864: AllStruct::GenrealCoord::bpos::s1: в пределах класса могут быть инициализированы только статические константные данные-члены целого типа
+     1>d:\с++\ownid\xvtt\variables.h(31): error C2327: AllStruct::GenrealCoord::bpos::s1: не является именем типа, статическим членом или перечислителем
+     1>d:\с++\ownid\xvtt\variables.h(31): error C2065: s1: необъявленный идентификатор
+     1>d:\с++\ownid\xvtt\variables.h(31): error C2864: AllStruct::GenrealCoord::bpos::s2: в пределах класса могут быть инициализированы только статические константные данные-члены целого типа
+     1>d:\с++\ownid\xvtt\variables.h(31): error C2327: AllStruct::GenrealCoord::bpos::s1: не является именем типа, статическим членом или перечислителем
+     1>d:\с++\ownid\xvtt\variables.h(31): error C2065: s1: необъявленный идентификатор
+     1>d:\с++\ownid\xvtt\variables.h(31): error C2864: AllStruct::GenrealCoord::bpos::s3: в пределах класса могут быть инициализированы только статические константные данные-члены целого типа
+     1>d:\с++\ownid\xvtt\variables.h(37): error C2864: AllStruct::ESPCoord::x: в пределах класса могут быть инициализированы только статические константные данные-члены целого типа
+     1>d:\с++\ownid\xvtt\variables.h(37): error C2864: AllStruct::ESPCoord::y: в пределах класса могут быть инициализированы только статические константные данные-члены целого типа
+     1>d:\с++\ownid\xvtt\variables.h(48): error C2864: AllStruct::AIMCoord::x: в пределах класса могут быть инициализированы только статические константные данные-члены целого типа
+     1>d:\с++\ownid\xvtt\variables.h(48): error C2864: AllStruct::AIMCoord::y: в пределах класса могут быть инициализированы только статические константные данные-члены целого типа
+     1>d:\с++\ownid\xvtt\variables.h(52): error C2864: AllStruct::AIMCoord::bpos::y2: в пределах класса могут быть инициализированы только статические константные данные-члены целого типа
+     1>d:\с++\ownid\xvtt\drawprimitives.h(28): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(28): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(28): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(28): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(41): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(41): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(41): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(41): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(41): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(41): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(41): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(41): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(83): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(83): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(83): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(83): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(84): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(84): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(84): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(84): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(85): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(85): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(85): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(85): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(86): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(86): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(86): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(86): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(89): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(90): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(94): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(95): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(99): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(100): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(104): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\drawprimitives.h(105): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\otherdraw.h(67): error C2065: NOC: необъявленный идентификатор
+     1>d:\с++\ownid\xvtt\otherdraw.h(67): error C2228: выражение слева от ".Title1" должно представлять класс, структуру или объединение
+                 тип: 'unknown-type'
+     1>d:\с++\ownid\xvtt\otherdraw.h(68): error C2065: NOC: необъявленный идентификатор
+     1>d:\с++\ownid\xvtt\otherdraw.h(68): error C2228: выражение слева от ".Title1" должно представлять класс, структуру или объединение
+                 тип: 'unknown-type'
+     1>d:\с++\ownid\xvtt\otherdraw.h(69): error C2065: NOC: необъявленный идентификатор
+     1>d:\с++\ownid\xvtt\otherdraw.h(69): error C2228: выражение слева от ".Title1" должно представлять класс, структуру или объединение
+                 тип: 'unknown-type'
+     1>d:\с++\ownid\xvtt\otherdraw.h(70): error C2065: NOC: необъявленный идентификатор
+     1>d:\с++\ownid\xvtt\otherdraw.h(70): error C2228: выражение слева от ".Title1" должно представлять класс, структуру или объединение
+                 тип: 'unknown-type'
+     1>d:\с++\ownid\xvtt\otherdraw.h(72): error C2065: NOC: необъявленный идентификатор
+     1>d:\с++\ownid\xvtt\otherdraw.h(72): error C2228: выражение слева от ".Title1" должно представлять класс, структуру или объединение
+                 тип: 'unknown-type'
+     1>d:\с++\ownid\xvtt\otherdraw.h(73): error C2065: NOC: необъявленный идентификатор
+     1>d:\с++\ownid\xvtt\otherdraw.h(73): error C2228: выражение слева от ".Title1" должно представлять класс, структуру или объединение
+                 тип: 'unknown-type'
+     1>d:\с++\ownid\xvtt\otherdraw.h(74): error C2065: NOC: необъявленный идентификатор
+     1>d:\с++\ownid\xvtt\otherdraw.h(74): error C2228: выражение слева от ".Title1" должно представлять класс, структуру или объединение
+                 тип: 'unknown-type'
+     1>d:\с++\ownid\xvtt\otherdraw.h(81): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>d:\с++\ownid\xvtt\otherdraw.h(81): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>d:\с++\ownid\xvtt\otherdraw.h(81): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>d:\с++\ownid\xvtt\otherdraw.h(81): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>d:\с++\ownid\xvtt\otherdraw.h(124): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\otherdraw.h(124): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\otherdraw.h(171): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\otherdraw.h(171): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\ownid\xvtt\menu.h(18): error C2065: NOC: необъявленный идентификатор
+     1>d:\с++\ownid\xvtt\menu.h(18): error C2228: выражение слева от ".Title1" должно представлять класс, структуру или объединение
+                 тип: 'unknown-type'
+     1>d:\с++\ownid\xvtt\menu.h(32): error C2065: NOC: необъявленный идентификатор
+     1>d:\с++\ownid\xvtt\menu.h(32): error C2228: выражение слева от ".Title2" должно представлять класс, структуру или объединение
+                 тип: 'unknown-type'
+     1>Построение проекта "D:\С++\Ownid\XVTT\XVTT.vcxproj" завершено (целевые объекты build) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:01.13

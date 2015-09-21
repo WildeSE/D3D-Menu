@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="GuradPlay_Engine">
+</Property><Property Name="Файл решения" Value="D:\С++\GuradPlay_Engine\GuradPlay_Engine.sln">
+</Property><Property Name="Файл параметров пользователя" Value="D:\С++\GuradPlay_Engine\GuradPlay_Engine.suo">
+</Property><Property Name="Date" Value="17 марта 2015 г.">
+</Property><Property Name="Time" Value="17:47">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="GuradPlay_Engine.sln" Description="Успешно создана резервная копия файла D:\С++\GuradPlay_Engine\GuradPlay_Engine.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="GuradPlay_Engine.suo" Description="Успешно создана резервная копия файла D:\С++\GuradPlay_Engine\GuradPlay_Engine.suo.old">
+</Event><Event ErrorLevel="3" Project="GuradPlay_Engine" Source="GuradPlay_Engine\GuradPlay_Engine.vcxproj" Description="Преобразование не требуется">
+</Event><Event ErrorLevel="0" Project="" Source="GuradPlay_Engine.sln" Description="Преобразование решения успешно завершено">
+</Event><Event ErrorLevel="3" Project="" Source="GuradPlay_Engine.sln" Description="Converted">
+</Event></UpgradeLog>

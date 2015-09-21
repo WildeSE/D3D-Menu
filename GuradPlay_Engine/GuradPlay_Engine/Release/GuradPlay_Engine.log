@@ -1,0 +1,62 @@
+﻿Сборка начата 25.06.2015 22:04:05.
+     1>Проект "D:\С++\GuradPlay_Engine\GuradPlay_Engine\GuradPlay_Engine.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D GURADPLAY_ENGINE_EXPORTS /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BaseDLL.cpp cDraw.cpp cProtect.cpp Memory.cpp
+         BaseDLL.cpp
+     1>d:\с++\guradplay_engine\guradplay_engine\MemHack.h(51): warning C4805: ==: небезопасное смешение типа "int" и типа "bool" в операции
+     1>d:\с++\guradplay_engine\guradplay_engine\MemHack.h(55): warning C4305: =: усечение из "double" к "float"
+     1>d:\с++\guradplay_engine\guradplay_engine\MemHack.h(56): warning C4305: =: усечение из "double" к "float"
+     1>d:\с++\guradplay_engine\guradplay_engine\MemHack.h(57): warning C4305: =: усечение из "double" к "float"
+     1>d:\с++\guradplay_engine\guradplay_engine\MemHack.h(58): warning C4305: =: усечение из "double" к "float"
+     1>d:\с++\guradplay_engine\guradplay_engine\MemHack.h(60): warning C4305: =: усечение из "double" к "float"
+     1>d:\с++\guradplay_engine\guradplay_engine\MemHack.h(61): warning C4305: =: усечение из "double" к "float"
+     1>d:\с++\guradplay_engine\guradplay_engine\MemHack.h(62): warning C4305: =: усечение из "double" к "float"
+     1>d:\с++\guradplay_engine\guradplay_engine\MemHack.h(63): warning C4305: =: усечение из "double" к "float"
+     1>d:\с++\guradplay_engine\guradplay_engine\MemHack.h(64): warning C4305: =: усечение из "double" к "float"
+     1>d:\с++\guradplay_engine\guradplay_engine\MemHack.h(65): warning C4305: =: усечение из "double" к "float"
+     1>d:\с++\guradplay_engine\guradplay_engine\MemHack.h(66): warning C4305: =: усечение из "double" к "float"
+     1>d:\с++\guradplay_engine\guradplay_engine\MemHack.h(67): warning C4305: =: усечение из "double" к "float"
+     1>d:\с++\guradplay_engine\guradplay_engine\MemHack.h(68): warning C4305: =: усечение из "double" к "float"
+     1>d:\с++\guradplay_engine\guradplay_engine\MemHack.h(69): warning C4305: =: усечение из "double" к "float"
+     1>d:\с++\guradplay_engine\guradplay_engine\MemHack.h(70): warning C4305: =: усечение из "double" к "float"
+     1>d:\с++\guradplay_engine\guradplay_engine\MemHack.h(71): warning C4305: =: усечение из "double" к "float"
+     1>d:\с++\guradplay_engine\guradplay_engine\MemHack.h(72): warning C4305: =: усечение из "double" к "float"
+     1>d:\с++\guradplay_engine\guradplay_engine\MemHack.h(79): warning C4805: ==: небезопасное смешение типа "int" и типа "bool" в операции
+     1>d:\с++\guradplay_engine\guradplay_engine\GameClass.h(223): warning C4244: аргумент: преобразование "float" в "long", возможна потеря данных
+     1>d:\с++\guradplay_engine\guradplay_engine\ESP.h(105): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356): см. объявление "sprintf"
+     1>d:\с++\guradplay_engine\guradplay_engine\ESP.h(106): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356): см. объявление "sprintf"
+     1>d:\с++\guradplay_engine\guradplay_engine\ESP.h(122): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+     1>d:\с++\guradplay_engine\guradplay_engine\ESP.h(123): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+     1>d:\с++\guradplay_engine\guradplay_engine\ESP.h(124): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\guradplay_engine\guradplay_engine\ESP.h(124): warning C4244: аргумент: преобразование "DWORD" в "float", возможна потеря данных
+     1>BaseDLL.cpp(32): warning C4409: недопустимый размер инструкции
+         cDraw.cpp
+     1>cDraw.cpp(17): warning C4101: rect2: неиспользованная локальная переменная
+     1>cDraw.cpp(29): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>cDraw.cpp(78): warning C4244: аргумент: преобразование "int" в "FLOAT", возможна потеря данных
+     1>cDraw.cpp(80): warning C4244: =: преобразование "long" в "FLOAT", возможна потеря данных
+     1>cDraw.cpp(81): warning C4244: =: преобразование "long" в "FLOAT", возможна потеря данных
+     1>cDraw.cpp(82): warning C4244: =: преобразование "long" в "FLOAT", возможна потеря данных
+     1>cDraw.cpp(83): warning C4244: =: преобразование "long" в "FLOAT", возможна потеря данных
+         cProtect.cpp
+     1>cProtect.cpp(77): warning C4102: InLoadOrderModuleList: неиспользованная метка
+         Memory.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(D:\С++\GuradPlay_Engine\Release\GuradPlay_Engine.dll) does not match the Linker's OutputFile property value (D:\С++\GuradPlay_Engine\GuradPlay_Engine\iDReeM\dxhook.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(GuradPlay_Engine) does not match the Linker's OutputFile property value (dxhook). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"iDReeM\dxhook.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\С++\GuradPlay_Engine\Release\GuradPlay_Engine.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\С++\GuradPlay_Engine\Release\GuradPlay_Engine.lib" /MACHINE:X86 /SAFESEH /SAFESEH:NO /DLL Release\BaseDLL.obj
+         Release\cDraw.obj
+         Release\cProtect.obj
+         Release\Memory.obj
+         Создание кода
+         Создание кода завершено
+     1>detours.lib(detours.obj) : warning LNK4099: "detours.pdb" PDB не найден с "detours.lib(detours.obj)" или на "D:\С++\GuradPlay_Engine\Release\detours.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+     1>detours.lib(disasm.obj) : warning LNK4099: "detours.pdb" PDB не найден с "detours.lib(disasm.obj)" или на "D:\С++\GuradPlay_Engine\Release\detours.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+         GuradPlay_Engine.vcxproj -> D:\С++\GuradPlay_Engine\Release\GuradPlay_Engine.dll
+     1>Сборка проекта "D:\С++\GuradPlay_Engine\GuradPlay_Engine\GuradPlay_Engine.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:02.28

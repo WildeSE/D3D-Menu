@@ -1,0 +1,21 @@
+﻿Построение начато 15.02.2015 19:56:40.
+     1>Проект "D:\С++\NNP\NoNameProject.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\NoNameProject.unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\С++\NNP\Debug\NoNameProject.dll) не соответствует значению свойства выходного файла (D:\С++\NNP\dxhook.dll) для Linker. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(NoNameProject) не соответствует значению свойства выходного файла (dxhook) для Linker. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"dxhook.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\NoNameProject.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\С++\NNP\Debug\NoNameProject.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\С++\NNP\Debug\NoNameProject.lib" /MACHINE:X86 /DLL Debug\Main.obj
+         NoNameProject.vcxproj -> D:\С++\NNP\Debug\NoNameProject.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"dxhook.dll;#2" /manifest Debug\NoNameProject.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\NoNameProject.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\NoNameProject.lastbuildstate".
+     1>Построение проекта "D:\С++\NNP\NoNameProject.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:00.37

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Draw">
+      <UniqueIdentifier>{174c2472-7d8a-4b6f-9677-6a3e9195ea1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ESP">
+      <UniqueIdentifier>{436f8365-a04d-4a2b-83a1-cab34c9cb7cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Защита dll">
+      <UniqueIdentifier>{c503e28d-7bf5-4665-a880-89a67e7a633f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cMain.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="cDraw.cpp">
+      <Filter>Draw</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cDraw.h">
+      <Filter>Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Hack.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="cSDK.h">
+      <Filter>ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="Khiriliza.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Protection.h">
+      <Filter>Защита dll</Filter>
+    </ClInclude>
+    <ClInclude Include="cVar.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes.h">
+      <Filter>ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="esp.h">
+      <Filter>ESP</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="cBase">
+      <UniqueIdentifier>{73223428-4729-4ce2-b606-5f0e109bc6bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cRender">
+      <UniqueIdentifier>{180cca59-50bf-46a9-b1de-29e95af3b536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cMenu">
+      <UniqueIdentifier>{222f16ab-425a-4a2b-8911-0b241405b56c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cFont">
+      <UniqueIdentifier>{c0b4d430-5ce3-4a80-8020-c59c373eac2a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cBase.cpp">
+      <Filter>cBase</Filter>
+    </ClCompile>
+    <ClCompile Include="cRender.cpp">
+      <Filter>cRender</Filter>
+    </ClCompile>
+    <ClCompile Include="cMenu.cpp">
+      <Filter>cMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="cFont.cpp">
+      <Filter>cFont</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cBase.h">
+      <Filter>cBase</Filter>
+    </ClInclude>
+    <ClInclude Include="cRender.h">
+      <Filter>cRender</Filter>
+    </ClInclude>
+    <ClInclude Include="cMenu.h">
+      <Filter>cMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="cFont.h">
+      <Filter>cFont</Filter>
+    </ClInclude>
+    <ClInclude Include="detours.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="detours.lib" />
+  </ItemGroup>
+</Project>

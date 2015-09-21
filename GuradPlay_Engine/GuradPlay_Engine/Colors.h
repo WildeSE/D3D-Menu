@@ -1,0 +1,31 @@
+enum Colors : D3DCOLOR
+{
+	Orange	      =   D3DCOLOR_ARGB(255, 255, 125, 000),
+	Yellow        =   D3DCOLOR_ARGB(255, 255, 255, 000),
+	Grey          =   D3DCOLOR_ARGB(255, 204, 204, 204),
+	Grey1         =   D3DCOLOR_ARGB(255, 200, 0, 0),
+	Purple        =   D3DCOLOR_ARGB(255, 125, 000, 255),
+	White		  =   D3DCOLOR_ARGB(255, 255, 255, 255),
+	White2		  =   D3DCOLOR_ARGB(100, 255, 255, 255),
+	Red			  =   D3DCOLOR_ARGB(255, 234, 65, 36),
+	Red1		  =   D3DCOLOR_ARGB(0, 71, 72, 28),
+	Green		  =   D3DCOLOR_ARGB(255, 124, 216, 124),
+	Blue		  =	  D3DCOLOR_ARGB(255, 000, 186, 255),
+	Black		  =	  D3DCOLOR_ARGB(255, 000, 000, 000),
+	Black2		  =	  D3DCOLOR_ARGB(10, 26, 26, 26),
+	//other
+	Dark1		  =	  D3DCOLOR_ARGB(255, 10, 10, 10),
+	Dark2		  =	  D3DCOLOR_ARGB(255, 26, 26, 26),
+	Dark3         =	  D3DCOLOR_ARGB(255, 30, 30, 30),
+	Dark4		  =	  D3DCOLOR_ARGB(255, 40, 40, 40),
+	Dark5		  =	  D3DCOLOR_ARGB(200, 0, 0, 0),
+	Darke		  =	  D3DCOLOR_ARGB(40, 40, 62, 62),
+	DarkLite	  =	  D3DCOLOR_ARGB(240, 0, 0, 0),
+	Dark6         =	  D3DCOLOR_ARGB(255, 62, 62, 62),
+	Dark7		  =	  D3DCOLOR_ARGB(255, 70, 70, 70),
+	Dark8		  =	  D3DCOLOR_ARGB(255, 80, 80, 80),
+	Dark9         =	  D3DCOLOR_ARGB(255, 90, 90, 90),
+	Dark10        =	  D3DCOLOR_ARGB(255, 100, 100, 100),
+	RedOFFer      =	  D3DCOLOR_ARGB(0, 50, 50, 50),
+	GreyLol       =	  D3DCOLOR_ARGB(1, 0, 3, 71)
+};

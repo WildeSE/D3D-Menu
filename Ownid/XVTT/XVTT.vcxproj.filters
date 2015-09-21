@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Base">
+      <UniqueIdentifier>{6bee5069-e4c2-487f-8b27-399fa44f3c76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{5ddd8cee-b9c4-4cc7-af49-1ca68a095dc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3DDraw">
+      <UniqueIdentifier>{29db421f-a35a-4885-9f11-c4bd1aec4b5a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Menu.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Variables.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DColor.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>Other</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawPrimitives.h">
+      <Filter>D3DDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="detours.h" />
+    <ClInclude Include="OtherDraw.h">
+      <Filter>D3DDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>D3DDraw</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Base.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="detours.lib" />
+  </ItemGroup>
+</Project>

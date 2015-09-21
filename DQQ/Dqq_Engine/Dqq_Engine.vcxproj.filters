@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Dqq Engine">
+      <UniqueIdentifier>{5ad65a68-2522-4fb4-ab80-633e9cec4d4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dqq Engine\cDraw">
+      <UniqueIdentifier>{dc9f8b3b-0b39-4cc4-a2c7-0784ecabe951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dqq Engine\cFont">
+      <UniqueIdentifier>{bb35e55f-8e3d-4c18-86df-5a6f47c63aa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dqq Engine\Main">
+      <UniqueIdentifier>{0fe74f99-549f-4209-a92b-b58b283a79ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dqq Engine\Menu">
+      <UniqueIdentifier>{e8269065-6074-4303-b587-b25e299bb334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dqq Engine\Other">
+      <UniqueIdentifier>{3b07870e-8133-4500-afcb-1324f31cb8d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dqq Engine\cMemory">
+      <UniqueIdentifier>{a7dbd4fd-5655-43ba-88a9-8fd81409c02a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dqq Engine\Functions">
+      <UniqueIdentifier>{c7d38c1c-7ef8-4113-a5de-9661f11034db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dqq Engine\Asma">
+      <UniqueIdentifier>{029dca58-fbe3-4870-9f11-d63b1f7ee479}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cDraw.cpp">
+      <Filter>Dqq Engine\cDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="cFont.cpp">
+      <Filter>Dqq Engine\cFont</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Dqq Engine\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Dqq Engine\cMemory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cDraw.h">
+      <Filter>Dqq Engine\cDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="cFont.h">
+      <Filter>Dqq Engine\cFont</Filter>
+    </ClInclude>
+    <ClInclude Include="detours.h">
+      <Filter>Dqq Engine\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="colors.h">
+      <Filter>Dqq Engine\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Dqq Engine\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="structure.h">
+      <Filter>Dqq Engine\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Dqq Engine\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Dqq Engine\cMemory</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Guard Play - Engine">
+      <UniqueIdentifier>{7713bae6-561d-4a21-8036-9d6184a322af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guard Play - Engine\DLL">
+      <UniqueIdentifier>{db3ea841-1fb4-4c24-8808-29989fbee1fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guard Play - Engine\Variables">
+      <UniqueIdentifier>{bb62f2ab-7d0d-4223-948f-08252de7f5cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guard Play - Engine\D3D Menu">
+      <UniqueIdentifier>{ea6b5408-e067-41fe-a414-3a934b7fb340}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guard Play - Engine\cDraw">
+      <UniqueIdentifier>{483c5ee1-fddf-4770-b087-b944eb15f799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guard Play - Engine\cProtect">
+      <UniqueIdentifier>{e7148abb-0581-4e78-9acc-294dddd37ae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guard Play - Engine\Memory">
+      <UniqueIdentifier>{ba0d2fac-aea1-42be-8cde-bfd0005083a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guard Play - Engine\MainHack">
+      <UniqueIdentifier>{2410b8a6-2bb2-4fe2-87be-fc62d388bba3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guard Play - Engine\VIP">
+      <UniqueIdentifier>{59aa6fa2-97b1-4afc-bc0f-24a60a19c177}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseDLL.cpp">
+      <Filter>Guard Play - Engine\DLL</Filter>
+    </ClCompile>
+    <ClCompile Include="cDraw.cpp">
+      <Filter>Guard Play - Engine\cDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="cProtect.cpp">
+      <Filter>Guard Play - Engine\cProtect</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Guard Play - Engine\Memory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D3D9Hook.h">
+      <Filter>Guard Play - Engine\DLL</Filter>
+    </ClInclude>
+    <ClInclude Include="Variables.h">
+      <Filter>Guard Play - Engine\Variables</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Guard Play - Engine\D3D Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Colors.h">
+      <Filter>Guard Play - Engine\D3D Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="cDraw.h">
+      <Filter>Guard Play - Engine\cDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="cProtect.h">
+      <Filter>Guard Play - Engine\cProtect</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Guard Play - Engine\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Guard Play - Engine\VIP</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>Guard Play - Engine\VIP</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

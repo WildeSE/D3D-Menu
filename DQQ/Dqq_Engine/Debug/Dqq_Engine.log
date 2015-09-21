@@ -1,0 +1,48 @@
+﻿Сборка начата 16.05.2015 20:20:21.
+     1>Проект "D:\С++\DQQ\Dqq_Engine\Dqq_Engine.vcxproj" в узле 2 (целевые объекты rebuild).
+     1>_PrepareForClean:
+         Файл "Debug\Dqq_Engine.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Обращение к "Debug\Dqq_Engine.unsuccessfulbuild".
+       ClCompile:
+         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DQQ_ENGINE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cDraw.cpp cFont.cpp main.cpp Memory.cpp
+         Memory.cpp
+         main.cpp
+         cFont.cpp
+     1>d:\с++\dqq\dqq_engine\cfont.cpp(5): warning C4005: STRICT: изменение макроопределения
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\windef.h(16): см. предыдущее определение "STRICT"
+     1>d:\с++\dqq\dqq_engine\cfont.cpp(35): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\microsoft visual studio 10.0\vc\include\wchar.h(1013): см. объявление "wcsncpy"
+         cDraw.cpp
+     1>d:\с++\dqq\dqq_engine\cdraw.cpp(11): error C2664: CD3DFont::CD3DFont(const TCHAR *,DWORD,DWORD): невозможно преобразовать параметр 1 из "const char [7]" в "const TCHAR *"
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>d:\с++\dqq\dqq_engine\cdraw.cpp(26): warning C4244: аргумент: преобразование "int" в "FLOAT", возможна потеря данных
+     1>d:\с++\dqq\dqq_engine\cdraw.cpp(26): warning C4244: аргумент: преобразование "int" в "FLOAT", возможна потеря данных
+     1>d:\с++\dqq\dqq_engine\cdraw.cpp(51): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\dqq\dqq_engine\cdraw.cpp(51): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\dqq\dqq_engine\cdraw.cpp(51): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\dqq\dqq_engine\cdraw.cpp(51): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\dqq\dqq_engine\cdraw.cpp(51): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\dqq\dqq_engine\cdraw.cpp(51): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\dqq\dqq_engine\cdraw.cpp(51): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\dqq\dqq_engine\cdraw.cpp(51): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\dqq\dqq_engine\cdraw.cpp(84): warning C4244: аргумент: преобразование "int" в "FLOAT", возможна потеря данных
+     1>d:\с++\dqq\dqq_engine\cdraw.cpp(86): warning C4244: =: преобразование "long" в "FLOAT", возможна потеря данных
+     1>d:\с++\dqq\dqq_engine\cdraw.cpp(87): warning C4244: =: преобразование "long" в "FLOAT", возможна потеря данных
+     1>d:\с++\dqq\dqq_engine\cdraw.cpp(88): warning C4244: =: преобразование "long" в "FLOAT", возможна потеря данных
+     1>d:\с++\dqq\dqq_engine\cdraw.cpp(89): warning C4244: =: преобразование "long" в "FLOAT", возможна потеря данных
+     1>d:\с++\dqq\dqq_engine\cdraw.cpp(186): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\dqq\dqq_engine\cdraw.cpp(187): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\dqq\dqq_engine\cdraw.cpp(188): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\dqq\dqq_engine\cdraw.cpp(192): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\dqq\dqq_engine\cdraw.cpp(193): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\dqq\dqq_engine\cdraw.cpp(194): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\dqq\dqq_engine\cdraw.cpp(198): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\dqq\dqq_engine\cdraw.cpp(199): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+     1>d:\с++\dqq\dqq_engine\cdraw.cpp(200): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+         Создание кода...
+     1>Построение проекта "D:\С++\DQQ\Dqq_Engine\Dqq_Engine.vcxproj" завершено (целевые объекты rebuild) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:02.69

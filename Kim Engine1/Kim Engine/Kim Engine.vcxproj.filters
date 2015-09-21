@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Kim">
+      <UniqueIdentifier>{713108cc-176b-4801-9d79-bc2a5904d9d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kim\Base">
+      <UniqueIdentifier>{b0c52d67-b7d9-47b7-b287-f2da2d06a6cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kim\Menu">
+      <UniqueIdentifier>{10c6d039-5298-485f-b80a-e6b58a0e3ffb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kim\Memory">
+      <UniqueIdentifier>{5bfefddd-55c4-42c0-992a-e67148a23a9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kim\cProtect">
+      <UniqueIdentifier>{c66f7253-b030-4f76-a71b-7e6491e2982b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kim\Variables">
+      <UniqueIdentifier>{3dd02133-a0c8-46af-a6d0-afa84fec8c85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kim\Draw">
+      <UniqueIdentifier>{d2c81a3d-ffae-48cc-8282-44ce64c58c3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kim\STherad">
+      <UniqueIdentifier>{f9287413-6749-47df-9f15-a71a9932d5b7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Base.cpp">
+      <Filter>Kim\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="cDraw.cpp">
+      <Filter>Kim\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Kim\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="cProtect.cpp">
+      <Filter>Kim\cProtect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D3D9.h">
+      <Filter>Kim\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="STherad.h">
+      <Filter>Kim\STherad</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.h">
+      <Filter>Kim\Variables</Filter>
+    </ClInclude>
+    <ClInclude Include="cDraw.h">
+      <Filter>Kim\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Colors.h">
+      <Filter>Kim\Variables</Filter>
+    </ClInclude>
+    <ClInclude Include="Variables.h">
+      <Filter>Kim\Variables</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMenu.h">
+      <Filter>Kim\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Kim\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="cProtect.h">
+      <Filter>Kim\cProtect</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
